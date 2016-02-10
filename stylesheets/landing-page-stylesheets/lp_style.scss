@@ -200,14 +200,22 @@ html, body{
                 color: white;
                 text-align: center;
                 display: inline;
-                margin: 10vh auto;
+                margin: 6vw auto;
+                font-size: 1.75vw;
                 // background-color: blue;
+
                 a{
                   text-decoration: none;
+                  color: $theColourWhite;
+
+                  &:visited{
+                    text-decoration: none;
+                    color: $theColourWhite;
+                  }
                 }
               }
               &:last-child{
-                 margin-bottom: 5vh;
+                 margin-bottom: 200px;
               }
             }
           }

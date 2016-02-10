@@ -168,8 +168,15 @@ html, body {
                 color: white;
                 text-align: center;
                 display: inline;
-                margin: 10vh auto; }
+                margin: 6vw auto;
+                font-size: 1.75vw; }
+                html #content-container-foundation ul li #updates-container ol li .textInPI a, body #content-container-foundation ul li #updates-container ol li .textInPI a {
+                  text-decoration: none;
+                  color: #fff; }
+                  html #content-container-foundation ul li #updates-container ol li .textInPI a:visited, body #content-container-foundation ul li #updates-container ol li .textInPI a:visited {
+                    text-decoration: none;
+                    color: #fff; }
               html #content-container-foundation ul li #updates-container ol li:last-child, body #content-container-foundation ul li #updates-container ol li:last-child {
-                margin-bottom: 5vh; }
+                margin-bottom: 200px; }
 
 /*# sourceMappingURL=lp_style.css.map */
