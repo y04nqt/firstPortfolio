@@ -82,26 +82,27 @@ html, body {
           html #content-container-foundation ul li #info-container article, body #content-container-foundation ul li #info-container article {
             margin: 0;
             width: 65%;
-            height: 80%;
+            height: auto;
             background-color: rgba(0, 0, 0, 0.8);
             float: left;
             margin-top: 7.5vh;
             overflow-y: auto;
-            margin-right: 2vh; }
+            margin-right: 2vh;
+            padding: 7.5% 0; }
             html #content-container-foundation ul li #info-container article h1, html #content-container-foundation ul li #info-container article p, body #content-container-foundation ul li #info-container article h1, body #content-container-foundation ul li #info-container article p {
-              margin: 3.5vh auto 0;
-              margin-bottom: 3vh;
+              margin: 0 auto;
               width: 80%; }
             html #content-container-foundation ul li #info-container article h1, body #content-container-foundation ul li #info-container article h1 {
-              font-size: 2.2vw; }
+              font-size: 2.2vw;
+              margin-bottom: 3vh; }
             html #content-container-foundation ul li #info-container article p, body #content-container-foundation ul li #info-container article p {
               font-size: 1.8vw; }
           html #content-container-foundation ul li #info-container #portrait, body #content-container-foundation ul li #info-container #portrait {
             margin: 0;
-            width: 30%;
-            height: 80%;
+            width: 25vw;
+            height: 25vw;
             float: right;
-            margin-top: 7.5vh;
+            margin-top: 10vw;
             border-radius: 2px;
             opacity: .35;
             background: url("../../imgs/myself.png");
