@@ -15,6 +15,8 @@ jQuery(function($){
   // var colArr = ['#000000', '#ef33fb', '#ef4555'];
   // var col = colArr[Math.floor(Math.random() * colArr.length)];
 
-  
+  $('#cont-btn').on('click', function(){
+    $('#redirect-container').css({'display': 'none'});
+  })
 
 });

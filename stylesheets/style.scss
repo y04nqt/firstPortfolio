@@ -3,6 +3,31 @@ body{
   color: white;
   @include scrollBar;
 
+  #redirect-container{
+    position: fixed;
+    top: 30%;
+    bottom: 30%;
+    left: 20%;
+    right: 20%;
+    background: rgba(#000, 1);
+    z-index: 999;
+    text-align: center;
+    border: solid 2px white;
+
+    h1{
+      margin: 2.5% 0;
+      padding: 0;
+    }
+    a{
+      font-size: 5vw;
+      color: white;
+    }
+    span{
+      display: block;
+      margin: 2% 0;
+      font-size: 1.5vw;
+    }
+  }
   #preloader_1{
     width: 100%;
     height: 100%;
@@ -10,7 +35,7 @@ body{
     // position: fixed;
     // top: 0; bottom: 0; right: 0; left: 0;
     background-color: black;
-    z-index: 100;
+    z-index: 99999;
   }
   #preloader_1 span{
     display:block;
